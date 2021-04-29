@@ -1,8 +1,8 @@
-defmodule NervesSystemRpi0.MixProject do
+defmodule KioskSystemRpi0.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_rpi0
+  @github_organization "MAkcanca"
+  @app :kiosk_system_rpi0
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
@@ -113,6 +113,7 @@ defmodule NervesSystemRpi0.MixProject do
       "post-createfs.sh",
       "ramoops.dts",
       "README.md",
+      "users_table.txt",
       "VERSION"
     ]
   end
